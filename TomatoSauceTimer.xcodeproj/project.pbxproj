@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		669891C12BCFF7620090CE06 /* TomatoSauceTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669891C02BCFF7620090CE06 /* TomatoSauceTimerApp.swift */; };
-		669891C32BCFF7620090CE06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669891C22BCFF7620090CE06 /* ContentView.swift */; };
-		669891C52BCFF7620090CE06 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669891C42BCFF7620090CE06 /* Item.swift */; };
 		669891C72BCFF7640090CE06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669891C62BCFF7640090CE06 /* Assets.xcassets */; };
 		669891CA2BCFF7640090CE06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669891C92BCFF7640090CE06 /* Preview Assets.xcassets */; };
 		669891D52BCFF7650090CE06 /* TomatoSauceTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669891D42BCFF7650090CE06 /* TomatoSauceTimerTests.swift */; };
 		669891DF2BCFF7650090CE06 /* TomatoSauceTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669891DE2BCFF7650090CE06 /* TomatoSauceTimerUITests.swift */; };
 		669891E12BCFF7650090CE06 /* TomatoSauceTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669891E02BCFF7650090CE06 /* TomatoSauceTimerUITestsLaunchTests.swift */; };
+		669891EE2BCFFD960090CE06 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669891ED2BCFFD960090CE06 /* TimerView.swift */; };
+		669891F12BD000210090CE06 /* Exo-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 669891EF2BD000210090CE06 /* Exo-Italic-VariableFont_wght.ttf */; };
+		669891F22BD000210090CE06 /* Exo-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 669891F02BD000210090CE06 /* Exo-VariableFont_wght.ttf */; };
+		669891F72BD01A920090CE06 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669891F62BD01A920090CE06 /* TimerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,6 @@
 /* Begin PBXFileReference section */
 		669891BD2BCFF7620090CE06 /* TomatoSauceTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomatoSauceTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669891C02BCFF7620090CE06 /* TomatoSauceTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoSauceTimerApp.swift; sourceTree = "<group>"; };
-		669891C22BCFF7620090CE06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		669891C42BCFF7620090CE06 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		669891C62BCFF7640090CE06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		669891C92BCFF7640090CE06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		669891CB2BCFF7640090CE06 /* TomatoSauceTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TomatoSauceTimer.entitlements; sourceTree = "<group>"; };
@@ -47,6 +47,11 @@
 		669891DA2BCFF7650090CE06 /* TomatoSauceTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomatoSauceTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		669891DE2BCFF7650090CE06 /* TomatoSauceTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoSauceTimerUITests.swift; sourceTree = "<group>"; };
 		669891E02BCFF7650090CE06 /* TomatoSauceTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoSauceTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		669891ED2BCFFD960090CE06 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		669891EF2BD000210090CE06 /* Exo-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		669891F02BD000210090CE06 /* Exo-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		669891F32BD0005B0090CE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		669891F62BD01A920090CE06 /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +102,13 @@
 		669891BF2BCFF7620090CE06 /* TomatoSauceTimer */ = {
 			isa = PBXGroup;
 			children = (
+				669891F52BD01A810090CE06 /* Controller */,
+				669891F42BD000CC0090CE06 /* View */,
+				669891F32BD0005B0090CE06 /* Info.plist */,
 				669891C02BCFF7620090CE06 /* TomatoSauceTimerApp.swift */,
-				669891C22BCFF7620090CE06 /* ContentView.swift */,
-				669891C42BCFF7620090CE06 /* Item.swift */,
 				669891C62BCFF7640090CE06 /* Assets.xcassets */,
+				669891EF2BD000210090CE06 /* Exo-Italic-VariableFont_wght.ttf */,
+				669891F02BD000210090CE06 /* Exo-VariableFont_wght.ttf */,
 				669891CB2BCFF7640090CE06 /* TomatoSauceTimer.entitlements */,
 				669891C82BCFF7640090CE06 /* Preview Content */,
 			);
@@ -130,6 +138,22 @@
 				669891E02BCFF7650090CE06 /* TomatoSauceTimerUITestsLaunchTests.swift */,
 			);
 			path = TomatoSauceTimerUITests;
+			sourceTree = "<group>";
+		};
+		669891F42BD000CC0090CE06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				669891ED2BCFFD960090CE06 /* TimerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		669891F52BD01A810090CE06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				669891F62BD01A920090CE06 /* TimerController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +260,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669891F22BD000210090CE06 /* Exo-VariableFont_wght.ttf in Resources */,
 				669891CA2BCFF7640090CE06 /* Preview Assets.xcassets in Resources */,
 				669891C72BCFF7640090CE06 /* Assets.xcassets in Resources */,
+				669891F12BD000210090CE06 /* Exo-Italic-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				669891C32BCFF7620090CE06 /* ContentView.swift in Sources */,
-				669891C52BCFF7620090CE06 /* Item.swift in Sources */,
+				669891EE2BCFFD960090CE06 /* TimerView.swift in Sources */,
 				669891C12BCFF7620090CE06 /* TomatoSauceTimerApp.swift in Sources */,
+				669891F72BD01A920090CE06 /* TimerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,12 +451,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TomatoSauceTimer/TomatoSauceTimer.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TomatoSauceTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 95HCD3VYQ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TomatoSauceTimer/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,12 +480,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TomatoSauceTimer/TomatoSauceTimer.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TomatoSauceTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 95HCD3VYQ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TomatoSauceTimer/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
